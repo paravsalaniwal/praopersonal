@@ -50,7 +50,9 @@ layout: default
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
         <li>
-        {%- include post_list.html -%}
+          <div class="post-container">
+            {%- include post_list.html -%}
+          </div>
         </li>
       {%- endfor -%}
     </ul>
@@ -76,3 +78,17 @@ layout: default
   {%- endif -%}
 
 </div>
+<style>
+  h1.page-heading {
+    text-align: center;
+    font-size: 35px;
+    color: #FF8200;
+  }
+
+  .post-container {
+    margin-right: 500px;
+    margin-left: 15px;
+    text-align:left;
+    padding: 0px
+  }
+</style>
