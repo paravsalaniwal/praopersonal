@@ -9,7 +9,7 @@ title: Student Blog
     <img src="https://github.com/paravsalaniwal/firstrepo/assets/111609656/066c6d29-2396-40e0-842e-a385ef6b56b0">
   </div>
 
-
+<p1>I love bklack niggers </p1>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
     h1{
