@@ -4,7 +4,7 @@ permalink: /installationhacks
 title: Installation Hacks
 description: Hacks for the basic installations
 type: hacks
-courses: { 'csa': {'week': 0} }
+courses: { csa: {week: 0} }
 ---
 
 |**Command**|**Type of Command**|

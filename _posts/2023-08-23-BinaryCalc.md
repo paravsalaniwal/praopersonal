@@ -4,7 +4,7 @@ title: Calculators
 permalink: /calculators
 description: Personally made calculators to perform simple computations
 type: hacks
-courses: { 'csa': {'week': 0} }
+courses: { csa: {week: 0} }
 ---
 
 <script>

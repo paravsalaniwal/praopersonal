@@ -4,7 +4,7 @@ permalink: /toolsblog
 title: Tools Blog
 description: Blog about the tools used and its importance
 type: hacks
-courses: { 'csa': {'week': 0} }
+courses: { csa: {week: 0} }
 ---
 
 ### Why We Love Our Tools

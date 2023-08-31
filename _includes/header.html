@@ -1,20 +1,26 @@
 <header class="site-header">
   <style>
     @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
-    ul {
+    a {
       list-style-type: none;
       font-family: 'Chakra Petch', sans-serif;
-      margin: auto;
-      padding: 0;
+      margin-top: 5px;
       overflow: hidden;
-      background-color: #333;
-      font-size:15px;
+      font-size:18px;
+    }
+    a.btn{
+      color: #ff8200;
+      background-color: black;
+      border: 0px;
+      height:70px;
+      text-align: center;
+      padding-top:20px;
+    }
+    a.btn:hover{
+      color: #ff8200;
     }
     li.fork {
       float: left;
-    }
-    li:last-child {
-      border-right: none;
     }
     li a {
       display: block;
@@ -26,19 +32,20 @@
     li a:hover:not(.active) {
       background-color: black;
     }
-    .active {
-      background-color: #ff8200;
+    img.logo{
+      padding-top:-5px;
     }
     </style>
-  <div id="header">
-    <nav>
-      <ul>
-        <li class="fork"><a href="{{site.baseurl}}/">Home</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/labnotebook">Lab Notebook</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/blogs">Blogs</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/calculators">Calculators</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/about">About</a></li>
-      </ul>
-    </nav>
-  </div><!-- end header -->
+<div class="header">
+
+  <a class="btn" href="{{site.baseurl}}/" role="button">
+    <img class="logo" src="https://github.com/paravsalaniwal/firstrepo/assets/111609656/f008af0b-7409-47f0-979a-660cfd87b098" width="30px" height=auto>
+  </a>
+  <a class="btn" href="{{site.baseurl}}/" role="button">Home</a>
+  <a class="btn" href="{{site.baseurl}}/labnotebook" role="button">Lab Notebook</a>
+  <a class="btn" href="{{site.baseurl}}/blogs" role="button">Blogs</a>
+  <a class="btn" href="{{site.baseurl}}/about" role="button">About me</a>
+  <a class="btn" href="{{site.github.repository_url}}" role="button">My GitHub</a>
+</div><!-- end header -->
+
 </header>

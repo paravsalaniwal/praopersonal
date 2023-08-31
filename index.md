@@ -13,7 +13,7 @@ title: Student Blog
 <style>
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
     h1{
-        font-size: 35px;
+        font-size: 50px;
     }
     body{
         background: black;
