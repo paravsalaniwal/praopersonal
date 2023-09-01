@@ -15,4 +15,4 @@ courses: { csa: {week: 1} }
 - [Snake]({{site.baseurl/snake}})
 - [JS Calculator]({{site.baseurl/calc}})
 
-![](https://github.com/paravsalaniwal/firstrepo/assets/111609656/20f89696-d72a-4d9e-b54a-20969aa14101)
+![](https://github.com/paravsalaniwal/firstrepo/assets/111609656/11ce8439-955d-47a7-ab4d-898e6b2fffef)
