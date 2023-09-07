@@ -45,8 +45,8 @@ courses: { csa: {week: 3} }
         }
         p {
             color: #58595b;
-            margin-left: 500px;
-            margin-right: 500px;
+            margin-left: 350px;
+            margin-right: 350px;
             font-size: 18px;
         }
     </style>
