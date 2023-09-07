@@ -44,7 +44,7 @@ courses: { csa: {week: 2} }
             margin-top: 10px;
         }
         #translationResult {
-            margin-top: 10px;
+            margin-top: 15px;
             font-weight: bold;
             font-size: 20px;
             text-align: center;
@@ -66,7 +66,6 @@ courses: { csa: {week: 2} }
         <option value="hi">Hindi</option>
         <option value="zh-TW">Chinese (traditional)</option>
         <option value="fa">Persian</option>
-        <!-- Add more language options as needed -->
     </select>
     <button id="translateButton">Translate</button>
     <div id="translationResult"></div>
@@ -79,7 +78,7 @@ courses: { csa: {week: 2} }
             translateButton.addEventListener("click", async () => {
                 const text = textToTranslate.value;
                 const selectedLanguage = targetLanguage.value;
-                const apiKey = 'f2586bd8c7mshe64d56ce3a69011p10e170jsn51b21e88070f';
+                const apiKey = '6cf0c105b2mshabcf75f48cea6f9p14945ajsn30b6ebcd6ead';
                 const url = 'https://google-translate1.p.rapidapi.com/language/translate/v2/detect';
                 const options = {
                     method: 'POST',
