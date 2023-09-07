@@ -53,7 +53,7 @@ courses: { csa: {week: 2} }
 </head>
 <body>
     <h1>Project Collaboration Plan</h1>
-        <p> We decided to go with a Translator, in which we can translate any words, phrases, and sentences to any of the common languages that are used in the world. We did this through the use of a Google Translate API which was found via RapidAPI. We plan to use this to help people around the world have an easier way to communicate and understand different languages. </p>
+        <p> Nikhil and I went with Option 2, combining all the concepts into something unique and you feel is awesome. We decided to go with a Translator, in which we can translate any words, phrases, and sentences to any of the common languages that are used in the world. We did this through the use of a Google Translate API which was found via RapidAPI. We plan to use this to help people around the world have an easier way to communicate and understand different languages. </p>
     <h2>Week of August 30, 2023 to September 6, 2023</h2>
     <table>
         <thead>
