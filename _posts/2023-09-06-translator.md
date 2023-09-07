@@ -4,7 +4,7 @@ title: Translator
 description: Our pair showcase JS project incorporating the Google Translate API
 permalink: /translator
 type: tangibles
-courses: { csa: {week: 3} }
+courses: { csa: {week: 2} }
 ---
 
 <html>

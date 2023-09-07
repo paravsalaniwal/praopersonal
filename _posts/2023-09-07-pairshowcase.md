@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Week 3 + Pair Showcase Plan
-permalink: /week3plan
+title: Week 2 + Pair Showcase Plan
+permalink: /week2plan
 comments: true
 type: plans
-courses: { csa: {week: 3} }
+courses: { csa: {week: 2} }
 ---
 
 <html>
