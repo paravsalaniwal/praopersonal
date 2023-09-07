@@ -13,3 +13,5 @@ courses: { csa: {week: 2} }
 - [JS Query Hacks]({{site.baseurl}}/jsquery)
 - [JS w/ API Hacks]({{site.baseurl}}/jsapi)
 - [Translator]({{site.baseurl}}/translator)
+
+![](https://github.com/paravsalaniwal/personal/assets/111609656/952bd3a8-d27d-42fb-a92a-d831e70c4d4f)
