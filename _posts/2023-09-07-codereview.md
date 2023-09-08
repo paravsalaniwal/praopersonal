@@ -338,9 +338,9 @@ New Code:
     <button id="translateButton">Translate</button>
     <div id="translationResult"></div>
     <script>
-        async function detectLanguage(text, apiKey) {
+        async function detectLanguage(text, apiKey) { // defining an async function to detect the language of the text
             const url = 'https://google-translate1.p.rapidapi.com/language/translate/v2/detect';
-            const options = {
+            const options = { // define the options for the http POST request to the language detection API
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
@@ -348,15 +348,15 @@ New Code:
                     'X-RapidAPI-Key': apiKey,
                     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com',
                 },
-                body: new URLSearchParams({ q: text }),
+                body: new URLSearchParams({ q: text }), // send the text to the API as a parameter named 'q'
             };
-            const response = await fetch(url, options);
-            const data = await response.json();
-            return data.data.detections[0][0].language;
+            const response = await fetch(url, options); // send the request to the API and wait for the response
+            const data = await response.json(); // parsing the response as JSON
+            return data.data.detections[0][0].language; // extract and return the detected language from the API response
         }
-        async function translate(text, source, target, apiKey) {
+        async function translate(text, source, target, apiKey) { // define an async function to translate text
             const url = 'https://google-translate1.p.rapidapi.com/language/translate/v2';
-            const options = {
+            const options = {   // define options for the http POST request to the translation API
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
@@ -364,27 +364,27 @@ New Code:
                     'X-RapidAPI-Key': apiKey,
                     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com',
                 },
-                body: new URLSearchParams({ q: text, source, target }),
+                body: new URLSearchParams({ q: text, source, target }), // send the text, source language, and target language to the API
             };
-            const response = await fetch(url, options);
-            const data = await response.json();
-            return data.data.translations[0].translatedText;
+            const response = await fetch(url, options); // send the request to the translation API and wait for the response
+            const data = await response.json(); // parse the response as JSON
+            return data.data.translations[0].translatedText;  // extract and return the translated text from the API response
         }
-        document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("DOMContentLoaded", () => {     // run code after the DOM (web page) has been fully loaded
             const apiKey = '6cf0c105b2mshabcf75f48cea6f9p14945ajsn30b6ebcd6ead';
             const translateButton = document.getElementById("translateButton");
             const textToTranslate = document.getElementById("textToTranslate");
             const targetLanguage = document.getElementById("targetLanguage");
             const translationResult = document.getElementById("translationResult");
             translateButton.addEventListener("click", async () => {
-                const text = textToTranslate.value.trim();
+                const text = textToTranslate.value.trim();   // get the text to translate and the selected target language from the user input
                 const selectedLanguage = targetLanguage.value;
                 if (!text || !selectedLanguage) {
                     return;
                 }
                 const detectedLanguage = await detectLanguage(text, apiKey);
-                const translatedText = await translate(text, detectedLanguage, selectedLanguage, apiKey);
-                translationResult.textContent = `Translation: ${translatedText}`;
+                const translatedText = await translate(text, detectedLanguage, selectedLanguage, apiKey); // translate the text from the detected language to the selected target language
+                translationResult.textContent = `Translation: ${translatedText}`; // display final translated text
             });
         });
     </script>
