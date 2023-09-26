@@ -3,7 +3,7 @@ layout: post
 title: Crossover Grading Blog
 permalink: /crossoverblog
 type: hacks
-courses: { csa: {week: 5} }
+courses: { csa: {week: 4} }
 ---
 
 # Collaboration with Crossover Team

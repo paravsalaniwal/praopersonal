@@ -3,7 +3,7 @@ layout: post
 title: CSA/CSP Student Panel
 permalink: /studentpanel
 type: tangibles
-courses: { csa: {week: 5} }
+courses: { csa: {week: 4} }
 ---
 
 ### Takeaways from lesson:

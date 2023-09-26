@@ -3,7 +3,7 @@ layout: post
 title: Pair Showcase Code Review
 permalink: /codereview
 type: tangibles
-courses: { csa: {week: 2} }
+courses: { csa: {week: 3} }
 ---
 
 <html>
