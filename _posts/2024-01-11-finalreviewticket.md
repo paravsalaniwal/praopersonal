@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Review Ticket
-courses: { csa: {week: 17} }
+permalink: /reviewticketjan
+courses: { csa: {week: 16} }
 type: tangibles
 ---
 
