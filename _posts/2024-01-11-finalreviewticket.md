@@ -43,3 +43,6 @@ Link for my timebox is [here](https://paravsalaniwal.github.io/praopersonal/time
 
 Link to my commits is [here](https://github.com/paravsalaniwal)
 
+### Passion
+
+I enjoy doing these statistical projects as I enjoy analyzing statistics with using code to showcase it. Analyzing statistics through coding allows me to uncover meaningful patterns and insights within the data. I find satisfaction in translating raw numbers into visually compelling representations, making complex information more accessible. This passion for statistical projects not only hones my analytical skills but also fuels my curiosity to explore diverse datasets and draw valuable conclusions.
