@@ -14,6 +14,7 @@ permalink: jobinterview
 
 - [LinkedIn Profile](https://www.linkedin.com/in/paravsalaniwal/)
 - [GitHub Profile](https://github.com/paravsalaniwal)
+- [GitHub Personal Blog](https://paravsalaniwal.github.io/praopersonal/)
 
 ## Qualifications Review
 
